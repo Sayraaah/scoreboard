@@ -1,12 +1,12 @@
 let homeScore = 0;
-let guestScore = 0;
+let awayScore = 0;
 
 function addHome(points) {
-    homeScore += points;
-    document.getElementById("home-score").textcontent = homeScore;
+  homeScore += points;
+  document.getElementById("home-score").textcontent = homeScore;
 }
 
-function addGuest(points) {
-    guestScore += points;
-    document.getElementById("guest-score").textcontent = guestScore;
+function addAway(points) {
+  AwayScore += points;
+  document.getElementById("away-score").textcontent = guestScore;
 }
